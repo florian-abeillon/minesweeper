@@ -14,6 +14,10 @@ I worked in close collaboration with a good friend of mine, Paul Micoud.
 
 Our algorithm comes in 3 (and a half?!) versions, the latest presenting the best performance (but being very slow, compared to the others). The following presentation sums up the outline the strategies developed in each version: https://docs.google.com/presentation/d/1GE8A1S1u2g5CViuBVn43bpeWqDXg4BTwlHqJPMrrF-g/edit?usp=sharing
 
+You can run any version with the following arguments:
+* *-g stanford* or *-g expert* (default *stanford*) to change the standard grid size
+* *-d* to display a graphical view, in order to follow the algorithm progress over a game
+
 
 The challenge being timed, we later came up with several improvements:
 * The 3rd version sometimes raises an error - it needs some troubleshooting
