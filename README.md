@@ -20,4 +20,5 @@ The challenge being timed, we later came up with several improvements:
 * The algorithm obviously needs some optimization/refactoring
 * It may be interesting, when blocked, to randomly click on hidden non-edges when the number of mines is so small that their proba to be a mine becomes smaller than those of hidden edges
 * If we could have some kind of measure of the potential information given by a certain hidden cell, we could choose which cell to click on rather than choosing purely randomly. This would be a really complex, but assuredly useful implementation!
+
 We may implement those improvements in the near future.
